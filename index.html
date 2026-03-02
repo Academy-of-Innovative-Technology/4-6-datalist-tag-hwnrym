@@ -1,37 +1,108 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>4.6 datalist tags</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width">
+ <title>4.6 datalist tags</title>
+ <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
+
 <body>
-  <!--example form with a datalist-->
-  <form name="example" action="#" method="POST">
-      <label for="language">Select or type a language:</label>
-      <input list="languages" name="language">
-      <datalist id="languages">
-          <option value="English">
-          <option value="Spanish">
-          <option value="Bangla">
-          <option value="Chinese">
-      </datalist>
-      <br><br>
-      <input type="submit">
-  </form>
-
-  <!--exercise 1-->
 
 
-  <!--exercise 2-->
+ <form name="example" action="#" method="POST">
+     <label for="language">Select or type a language:</label>
+     <input list="languages" name="language" id="language">
+     <datalist id="languages">
+         <option value="English">
+         <option value="Spanish">
+         <option value="Chinese">
+         <option value="Japanese">
+     </datalist>
+     <br><br>
+     <input type="submit">
+ </form>
 
 
-  <!--exercise 3-->
+ <hr>
+
+
+ <!--exercise 1-->
+ <form action="#" method="POST">
+     <label for="sneakers">Select a Sneaker Brand:</label>
+     <input list="brands" id="sneakers" name="sneakers">
+     
+     <datalist id="brands">
+         <option value="Nike">
+         <option value="New Balance">
+         <option value="Skechers">
+         <option value="Adidas">
+         <option value="Puma">
+         <option value="Converse">
+         <option value="Vans">
+     </datalist>
+     <br><br>
+     <input type="submit">
+ </form>
+
+
+ <hr>
+
+
+ <!--exercise 2-->
+ <form action="#" method="POST">
+     <label for="city">Select a City:</label>
+     <input list="cities" id="city" name="city">
+
+
+     <datalist id="cities">
+         <option value="New York">
+         <option value="Chicago">
+         <option value="Baltimore">
+         <option value="Philadelphia">
+         <option value="Los Angeles">
+         <option value="Houston">
+         <option value="Miami">
+     </datalist>
+     <br><br>
+     <input type="submit">
+ </form>
+
+
+ <hr>
+
+
+ <!--exercise 3-->
+ <form action="#" method="POST">
+     <label for="artist">Select Your Favorite Music Artist:</label>
+     <input list="artists" id="artist" name="artist">
+
+
+     <datalist id="artists">
+         <option value="Bad bunny">
+         <option value="Arcangel">
+         <option value="Bruno Mars">
+         <option value="The Weeknd">
+         <option value="Trueno">
+         <option value="bizzarap">
+     </datalist>
+     <br><br>
+     <input type="submit">
+ </form>
 
 
 </body>
 
+
 </html>
+
+
+
+
+
+
+
+
